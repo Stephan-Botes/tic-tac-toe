@@ -1,0 +1,57 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 12rem);
+  justify-content: center;
+}
+
+app-square {
+  height: 12rem;
+}
+
+.title {
+  color: white;
+  font-family: 'Aclonica', sans-serif;
+  font-weight: 600;
+  font-size: 6rem;
+  padding: 3rem 0 0 0;
+  @media only screen and (max-width: 45em) {
+    font-size: 5rem;
+    padding: 2rem 0;
+  }
+}
+
+.subtitle {
+  color: white;
+  font-family: 'Audiowide', cursive;
+  font-weight: 400;
+  font-size: 4rem;
+  @media only screen and (max-width: 45em) {
+    font-size: 2.6rem;
+  }
+}
+
+button {
+  margin: 2rem;
+  background-color: #877685;
+  color: #fff;
+  @media only screen and (max-width: 45em) {
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+.game-ui {
+  background-image: linear-gradient(to left bottom, #232526, #282a2c, #2e3031, #333537, #393b3d, #404345, #474a4e, #4e5257, #595d65, #666874, #747382, #847e8f);
+  height: 100%;
+  text-align: center;
+}
+
+.player-x {
+  font-weight: 750;
+  color: #3366ff;
+}
+
+.player-o {
+  font-weight: 750;
+  color: #ff3d3d;
+}
